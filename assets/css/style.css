@@ -1,26 +1,32 @@
+/*habilitacion del smooth scroll*/
 html{
     scroll-behavior: smooth;
 }
+
+/*Colores y estilos generales*/
 body{
     background-color: black;
     color: white;
     font-family: 'Open Sans', sans-serif;
 }
-
+/*Colores seccion Quienes somos*/
 #avion{
     background-color: #00d0ff;
     text-align: center;  
 }
+/*Colores sección Destacados*/
 .card{
     background-color: #00d0ff;
 }
+/*Colores del footer*/
 footer{
     background-color: #00d0ff;
-    
 }
+/*Color del boton enviar del formulario final*/
 .btn{
     background-color: #00d0ff;
 }
+/*Color de los iconos de redes sociales*/
 #vinculitos{
     color: white;
 }
