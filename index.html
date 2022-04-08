@@ -31,16 +31,16 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#barra_navegacion">Inicio</a>
+                    <a class="nav-link" aria-current="page" href="#barra_navegacion" data-bs-toggle="tooltip" data-bs-placement="top" title="Clic aquí para ir al inicio">Inicio</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#quienes_somos">Quienes somos</a>
+                    <a class="nav-link" id="quienes" href="#quienes_somos" data-bs-toggle="tooltip" data-bs-placement="top" title="Clic aquí para saber quienes somos">Quienes somos</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#cuatro_cards">Destacados</a>
+                    <a class="nav-link" id="destacados" href="#cuatro_cards" data-bs-toggle="tooltip" data-bs-placement="top" title="Clic aquí para ver destacados">Destacados</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#contactos">Contacto</a>
+                    <a class="nav-link" id="contacto" href="#contactos" data-bs-toggle="tooltip" data-bs-placement="top" title="Clic aquí para contactarnos">Contacto</a>
                   </li>             
                 </ul>
                 
@@ -78,7 +78,7 @@
 
     <section id="quienes_somos">
         <div>
-            <h1 style="text-align: center;">¿QUIÉNES SOMOS?</h1>
+            <h1 style="text-align: center; margin-top: 30px; margin-bottom: 30px;">¿QUIÉNES SOMOS?</h1>
         </div>
         <div class="container">
             <div class="row">
@@ -123,12 +123,12 @@
       <div class="container">
 
         <div class="row">
-          <h1 style="text-align: center;">DESTACADOS</h1>
+          <h1 style="text-align: center; margin-top: 30px; margin-bottom: 30px;">DESTACADOS</h1>
         </div>
         <div class="row">
           <div class="col-sm-3">
             <div class="card" style="width: 18rem;">
-              <img src="assets/img/card1.jpg" class="card-img-top" alt="tarjeta 1" style="height: 240px;">
+              <img src="assets/img/card1.jpg" class="card-img-top" alt="tarjeta 1" style="height: 240px;" data-bs-toggle="tooltip" data-bs-placement="top" title="Bienvenido a Chile">
               <div class="card-body">
                 <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit ex, dolorum, deleniti vero illum aspernatur, nihil ipsam saepe eum iusto enim doloribus. Reiciendis placeat, quod perferendis optio aperiam minima tempora!</p>
               </div>
@@ -136,7 +136,7 @@
           </div>
           <div class="col-sm-3">
             <div class="card" style="width: 18rem;">
-              <img src="assets/img/card2.jpg" class="card-img-top" alt="tarjeta 2" style="height: 240px;">
+              <img src="assets/img/card2.jpg" class="card-img-top" alt="tarjeta 2" style="height: 240px;" data-bs-toggle="tooltip" data-bs-placement="top" title="Bienvenido a Chile">
               <div class="card-body">
                 <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit ex, dolorum, deleniti vero illum aspernatur, nihil ipsam saepe eum iusto enim doloribus. Reiciendis placeat, quod perferendis optio aperiam minima tempora!</p>
               </div>
@@ -144,7 +144,7 @@
           </div>
           <div class="col-sm-3">
             <div class="card" style="width: 18rem;">
-              <img src="assets/img/card3.jpg" class="card-img-top" alt="tarjeta 3" style="height: 240px;">
+              <img src="assets/img/card3.jpg" class="card-img-top" alt="tarjeta 3" style="height: 240px;" data-bs-toggle="tooltip" data-bs-placement="top" title="Bienvenido a Chile">
               <div class="card-body">
                 <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit ex, dolorum, deleniti vero illum aspernatur, nihil ipsam saepe eum iusto enim doloribus. Reiciendis placeat, quod perferendis optio aperiam minima tempora!</p>
               </div>
@@ -152,7 +152,7 @@
           </div>
           <div class="col-sm-3">
             <div class="card" style="width: 18rem;">
-              <img src="assets/img/card4.jpg" class="card-img-top" alt="tarjeta 4" style="height: 240px;">
+              <img src="assets/img/card4.jpg" class="card-img-top" alt="tarjeta 4" style="height: 240px;" data-bs-toggle="tooltip" data-bs-placement="top" title="Bienvenido a Chile">
               <div class="card-body">
                 <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit ex, dolorum, deleniti vero illum aspernatur, nihil ipsam saepe eum iusto enim doloribus. Reiciendis placeat, quod perferendis optio aperiam minima tempora!</p>
               </div>
@@ -168,7 +168,7 @@
 
       <div class="container">
         <div class="row">
-          <h1 style="text-align: center;">CONTACTO</h1>
+          <h1 style="text-align: center; margin-top: 30px; margin-bottom: 30px;">CONTACTO</h1>
         </div>
         <div class="row">
           <form>
@@ -185,7 +185,7 @@
               <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
             </div>
             
-            <button type="submit" class="btn btn-primary">Enviar</button>
+            <button id="enviar" type="submit" class="btn btn-primary" style="margin-bottom: 40px;">Enviar</button>
           </form>
         </div>
 

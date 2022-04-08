@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-color: black;
     color: white;
@@ -12,5 +15,8 @@ body{
     background-color: #00d0ff;
 }
 footer{
+    background-color: #00d0ff;
+}
+.btn{
     background-color: #00d0ff;
 }
