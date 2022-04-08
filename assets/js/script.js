@@ -6,6 +6,5 @@ var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
 
 //Elemento de jquery
 $("#enviar").click(function () { 
-        
     alert("Contacto exitoso")
 });
